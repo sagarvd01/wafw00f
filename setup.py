@@ -7,12 +7,11 @@ from setuptools import setup, find_packages
 setup(
     name='wafw00f',
     version=__import__('wafw00f').__version__,
-    description=('WAFW00F identifies and fingerprints '
-                 'Web Application Firewall (WAF) products.'),
-    author='sandrogauci',
-    author_email='sandro@enablesecurity.com',
+    description=('WAF finding scripts.'),
+    author='',
+    author_email='',
     license='BSD License',
-    url='https://github.com/sandrogauci/wafw00f',
+    url='',
     packages=find_packages(),
     scripts=['wafw00f/bin/wafw00f'],
     install_requires=[
